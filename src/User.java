@@ -44,4 +44,11 @@ public class User {
     public String getPassword(){
         return password;
     }
+
+    public Role getRole() {
+        return role;
+    }
+    public Role setRole(Role role){
+        this.role = role;
+    }
 }
