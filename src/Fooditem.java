@@ -9,11 +9,9 @@ public class Fooditem {
         this.price = price;
         this.available = available;
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }

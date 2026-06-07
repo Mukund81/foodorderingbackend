@@ -11,7 +11,6 @@ public class Restaurant {
         this.location = location;
         this.menu = menu;
     }
-
     public int getId() {
         return id;
     }

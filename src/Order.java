@@ -19,11 +19,9 @@ public class Order {
         this.totalprice = totalprice;
         this.status = status;
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
