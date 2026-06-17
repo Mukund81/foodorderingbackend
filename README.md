@@ -1,1 +1,21 @@
-a basic food delivery system backened system that contains fetures like login crud features for restaurants for admins and also order,cart,selecting from various restaurants for customers
+# Food Delivery System
+
+## Features
+- User Registration
+- Login Authentication
+- Role Based Access
+- Restaurant Management
+- Food Item Management
+- Cart Management
+- Order Placement
+
+## Technologies
+- Java
+- OOP
+- Collections Framework
+
+## Future Improvements
+- MySQL
+- JDBC
+- HTML/CSS/JS Frontend
+- Spring Boot REST API
