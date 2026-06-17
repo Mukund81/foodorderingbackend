@@ -202,7 +202,7 @@ public class Main {
         luckysmenu.add(mutton_ghost);
         luckysmenu.add(haleem);
         Restaurant luckys = new Restaurant(++restaurantId, "luckys", "Kukatpally", luckysmenu);
-        User Mukund = new User(++userid, "Mukund", "Mukund81", "12345", Role.CUSTOMER);
+        User Mukund = new User(++userid, "Mukund", "Mukund81", "12345", Role.USER);
         User admin = new User(++userid, "admin", "Admin", "admin123", Role.ADMIN);
         ArrayList<User> users = new ArrayList<>();
         users.add(Mukund);
@@ -232,7 +232,7 @@ public class Main {
                     if (flag) {
                         System.out.println("please enter your name");
                         String name = sc.next();
-                        currentuser = new User(++userid, name, username, password, Role.CUSTOMER);
+                        currentuser = new User(++userid, name, username, password, Role.USER);
                         users.add(currentuser);
                         System.out.println("Registration successfull!!");
                         break;
